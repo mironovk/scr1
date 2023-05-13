@@ -102,8 +102,10 @@
 #define INTERRUPT_HANDLER j other_exception /* No interrupts should occur */
 
 #define RVTEST_CODE_BEGIN                                               \
+        .org 0x600, 0;                                                   \
+        MSG_TRAP:                                                       \
+        .string "BP ";                                                   \
         .section .text.init;                                            \
-        .org 0xC0, 0x00;                                                \
         .balign  64;                                                    \
         .weak stvec_handler;                                            \
         .weak mtvec_handler;                                            \
@@ -130,9 +132,20 @@ other_exception:                                                        \
         /* some unhandlable exception occurred */                       \
         li   a0, 0x1;                                                   \
 _report:                                                                \
+         /* init for loop, 0xf0000000 address for print */              \
+        lui a6, 0xf0000;                                                \
+        la a7, MSG_TRAP;                                                \
+next_iter:                                                              \
+        lb a5, 0(a7);                                                   \
+        beq a5, x0, break_from_loop;                                    \
+        sw a5, 0(a6);   /* write to a6 char for print */                \
+        addi a7, a7, 1;                                                 \
+        jal x0, next_iter;                                              \
+break_from_loop:                                                        \
         j sc_exit;                                                      \
         .balign  64;                                                    \
         .globl _start;                                                  \
+        .section .text.start;                                           \
 _start:                                                                 \
         RISCV_MULTICORE_DISABLE;                                        \
         /*INIT_SPTBR;*/                                                 \
@@ -204,9 +217,9 @@ _run_test:
         .balign 16;                                                             \
         .global begin_regstate;  begin_regstate: .dword 0; .dword 0; .dword 0;  \
         .balign 16;                                                             \
-        .global begin_signature; begin_signature:
+        .global begin_signature; begin_signature:                               \
 
-#define RVTEST_DATA_END .balign 16; .global end_signature; end_signature:
+#define RVTEST_DATA_END .balign 16; .global end_signature; end_signature:       
 
 #-----------------------------------------------------------------------
 # Helper macros
