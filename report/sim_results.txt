@@ -1,0 +1,309 @@
+scr1_top_tb_ahb
+[0;34m---Test:                          sub.hex[0m
+Detect SUB command
+ curr_pc	=	0x000002a0
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000002ac
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000002bc
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000002d2
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000002f8
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000324
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000342
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x0000035a
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x0000038a
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000003b0
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000003c0
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000003d0
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000003f2
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000003f4
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000452
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000454
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x0000046e
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x0000046e
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000004c6
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000004c6
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000004fe
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000500
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x0000051a
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x0000051a
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000572
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000572
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000592
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x00000592
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000005bc
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+Detect SUB command
+ curr_pc	=	0x000005cc
+ mcause		=	0x00000000
+ mepc		=	0x000002a0
+ mie		=	0x00000000
+ mip		=	0x00000080
+ mstatus	=	0x00001880
+ mtval		=	0x00000000
+ mtvec		=	0x000001c0
+
+[0;32mTest passed[0m
+
+#--------------------------------------
+# Summary: 1/1 tests passed
+#--------------------------------------
+
+- /media/psf/Home/GIT/scr1/src/tb/scr1_top_tb_runtests.sv:199: Verilog $finish
